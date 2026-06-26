@@ -19,6 +19,7 @@ curl -L https://github.com/davidykmisha2015-prog/SnakeGame/releases/latest/downl
 
 # Run
 chmod +x snake
+
 ./snake
 
 Note: Requires ncurses library (sudo apt install libncurses5-dev on Debian/Ubuntu).
