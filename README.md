@@ -1,15 +1,31 @@
 SnakeGame
 
-A classic console-based Snake game written in C++ using the ncurses library. Designed with a modular architecture, this project features a high-score system, increasing difficulty, and a "super food" mechanic.
-Key Features
+A fast-paced, terminal-based Snake game written in C++.
+Features
 
-    Dynamic Difficulty: The game accelerates as you eat, testing your reflexes.
+    Dynamic Difficulty: The game gets faster the more you eat.
 
-    Super Food: A 20% chance to spawn a bonus food (@) that grants more points but increases speed significantly.
+    Super Food: A 20% chance for a bonus item (@) that grants 50 points but speeds up the game significantly.
 
-    Persistence: Automatically saves and loads your high score from a local text file.
+    High Score System: Automatically tracks and saves your best score.
 
-    Modular Design: Clean code structure divided into logical files for easy maintenance.
-How to Install and Run? 
-To install SnakeGame on your PC your need install Release Snake Game In:Release Latest version or first file and open terminal go to Downloads(cd Donwloads)
-And type: ./snake
+Quick Start
+
+You can download the latest pre-compiled version directly in your terminal:
+Bash
+
+# Download
+curl -L https://github.com/davidykmisha2015-prog/SnakeGame/releases/latest/download/snake -o snake
+
+# Run
+chmod +x snake
+./snake
+
+Note: Requires ncurses library (sudo apt install libncurses5-dev on Debian/Ubuntu).
+Controls
+
+    Arrow Keys: Move.
+
+    Enter: Start/Confirm.
+
+    ESC: Exit.
